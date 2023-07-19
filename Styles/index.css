@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+#pagina{
+    min-width: 360px;
+    max-width: 1000px;
+    height: auto;
+    margin: 0% auto;
+    padding: 20px;
+    background-color: mediumpurple;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    background-color: indianred;
+}
+
+/* @media screen and (min-width : 600px){
+    #pagina{
+        background-color :cornflowerblue;
+    }
+} */
+
+/* @media screen and (min-width : 300px) and (max-width : 599px){
+    #pagina{
+        background-color: mediumslateblue;
+        color: wheat;
+    }
+} */
+
+@media print {
+    *{
+        color: indigo;
+    }
+}
+  
